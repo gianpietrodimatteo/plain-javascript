@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css"> <!-- This example uses a full URL to link to a style sheet: --> 
+  <!-- <link rel="stylesheet" href="/html/styles.css"> <!-- This example links to a style sheet located in the html folder on the current web site: --> 
+  <link rel="stylesheet" href="../styles/style.css"> <!-- This example links to a style sheet located in the same folder as the current page: --> 
+  <!-- The ORDER of the imports of the styles MATTER -->
+<style> <!-- INTERNAL STYLE BEIBER -->
+h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+}
+p  {
+  color: red;
+  font-family: courier;
+  font-size: 100%;
+}
+#p01 { <!-- sopecific Id-->
+  color: blue;
+  border: 1px solid yellow; <!-- The CSS border property defines a border around an HTML element: -->
+  padding: 30px; <!-- The CSS padding property defines a padding (space) between the text and the border: -->
+  margin : 50px; <!-- The CSS margin property defines a margin (space) outside the border: -->
+}
+p.error {
+  color: red;
+  border: 1px solid white; 
+  padding: 30px;
+  margin : 50px; 
+}
+</style>
+</head>
+
+<body>
+The content of the document......
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+<br> <!-- line break! -->
+<p>This is a <br> paragraph with a line break.</p>
+
+
+<h2>HTML Links</h2>
+<p>HTML links are defined with the a tag:</p>
+
+<a href="https://www.w3schools.com">This is a link. Great Website BTW. </a>
+
+<h2>The src Attribute</h2>
+<p>HTML images are defined with the img tag, and the filename of the image source is specified in the src attribute:</p>
+
+<img src="../files/ja-pode-beber.jpg" width="50" height="50">
+<p> nao pode faltar fabinho!! =))</p>
+<img src="https://media.agoramt.com.br/2019/01/F%C3%A1bio-Assun%C3%A7%C3%A3o.jpg" >
+
+
+<h1 style="color:blue;">This is a heading in STYLE</h1>
+<p style="color:red;">This is a paragraph. in STYLE</p>
+<h1 style="font-family:verdana;">No. This is STYLE</h1>
+<p style="font-family:courier;">This is real style.</p>
+<h1 style="text-align:center;">Centered Heading</h1>
+<p style="text-align:center;">Centered paragraph.</p>
+
+<b>This text is bold</b>
+<strong>This text is strong</strong>
+<i>This text is italic</i>
+<em>This text is emphasized</em>
+<h2>HTML <small>Small</small> Formatting</h2>
+<h2>HTML <mark>Marked</mark> Formatting</h2>
+<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+
+<address>
+Written by John Doe.<br> 
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+
+<p style="background-color:Tomato;">TOMATO COLOR Lorem ipsum...</p>
+
+<h1 style="color:blue;">These styled stuff are INLINE CSS. INTERNAL CSS goes on the head, and EXTERNAL CSS goes as a reference in the head as well.  HAPPY STYLING FOR U</h1>
+
+<!-- To define a specific style for one special element, add an id attribute to the element: -->
+<p id="p01">I am different</p>
+
+<!-- To define a style for special types of elements, add a class attribute to the element: -->
+<p class="error">I am different as well. I am special. I was designed with internal css. CLASSIC, hun? Like, WHO needs frameworks anyways. Cheers.</p>
+
+<a href="https://www.w3schools.com/html/">It's that website from the top. Again. =)</a>
+<br>
+<a class="button" href="https://www.w3schools.com/html/"> This is also the link, but in the form of a button! Mad css here. (I just copy pasted shhh)</a>
+
+<p>If a browser cannot find the image, it will display the alternate text (that alt thing) </p>
+
+<img src="wrongname.gif" alt="Flowers in Chania">
+<p><small>This is from the same site above, hehe. Isnt it funny?</small><p>
+<img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">
+
+
+<p>Here are a bunch of googles image searches: </p>
+
+<p style="background-image:url('https://media.mnn.com/assets/images/2018/08/CollectionOfCloudsAgainstABlueSky.jpg.653x0_q80_crop-smart.jpg');">
+<b>This one comes with background image! UHULL</b>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium suscipit ipsum ut faucibus. Curabitur ac lacus ut sapien blandit interdum ut id elit. Curabitur arcu ipsum, bibendum sit amet pulvinar eu, sagittis in magna. Sed ultricies finibus orci, pellentesque iaculis diam. Pellentesque sed justo eu neque imperdiet vulputate. Aliquam erat volutpat. Maecenas at rhoncus ipsum, ut elementum ex. Sed porttitor consequat neque non mollis. Vivamus sed scelerisque dui, non laoreet metus. Vivamus vel velit enim. Sed mollis mauris eget ligula lobortis blandit. Fusce a ullamcorper turpis, ut consequat dolor. In a tincidunt diam, vitae iaculis quam.
+</p>
+
+<img src="https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Flower" width="460" height="345">
+<br> <!-- I dont see much linebreaks in pro websites... -->
+<p> this one has the imageman class AND wdth/height Style: We suggest using the style attribute. It prevents styles sheets from changing the size of images:
+</p>
+<img class="imageMan" src="https://www.ctvnews.ca/polopoly_fs/1.4037876!/httpImage/image.jpg_gen/derivatives/landscape_1020/image.jpg" alt="Bear" style="width:500px;height:500px;">
+<p> this one just has the imageman class. Thats a BIIIG picture. <small> I wish I was there... </small> </p>
+<img class="imageMan" src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Beach">
+
+<h2>Image as a Link</h2>
+<p>The image is a link. You can click on it. It wont take you to facebook though. Its counterintuitive right? Gotcha! Actually I did not since I said this before.
+My only hope is that youll get fed up of this long text.</p>
+<a href="http://www.4chan.org/">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png" alt="Facebook logo" style="width:42px;height:42px;border:0;">
+</a>
+<!--<p>Add "border:0;" to prevent IE9 (and earlier) from displaying a border around the image.</p>-->
+
+
+<!-- It's Javascript time! --> 
+<h2>Use JavaScript to Change Text</h2>
+
+<p class = "beCoolMan">This button has inline script directly in the onclick tag</p>
+<p class = "beCoolMan">document.getElementById('demo').innerHTML = Date()</p>
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+<p id="demo"></p>
+<br>
+<p class = "beCoolMan">Let's be cool about this and put inside a script tag, at least:</p>
+<p>This example writes "Hello JavaScript!" into an HTML element with id="demo":</p>
+<p id="demo2"></p>
+
+<script>
+document.getElementById("demo2").innerHTML = "Hello JavaScript!";
+function light(sw) {
+  var pic;
+  if (sw == 0) {
+    pic = "https://www.w3schools.com/html/pic_bulboff.gif"
+  } else {
+    pic = "https://www.w3schools.com/html/pic_bulbon.gif"
+  }
+  document.getElementById('myImage').src = pic;
+}
+</script>
+<h2>Hyhy:</h2>
+<img id="myImage" src="https://www.w3schools.com/html/pic_bulboff.gif" width="100" height="180">
+
+<p>
+<button type="button" onclick="light(1)">Light On</button>
+<button type="button" onclick="light(0)">Light Off</button>
+</p>
+
+<!-- The <noscript> tag is used to provide an alternate content for users that have disabled scripts in their browser or have a browser that doesn't support client-side scripts: -->
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
+
+<h1>External JavaScript! </h1>
+<p> Scripts can be placed in the body, or in the head section of an HTML page, or in both.</p>
+<p>Placing scripts at the bottom of the body element improves the display speed, because script interpretation slows down the display.</p>
+<p>Strings are written inside double or single quotes. Numbers are written without quotes.</p>
+
+<h1>INPUTS</h1>
+<input type="text" name="mickey" value="Mickey">
+<p>Type the tag: </p>
+<input type="text" name="tag" >
+<p>Type the html </p>
+<input type="text" name="innerHtml" >
+
+<script src="../scripts/script.js"></script>
+<br>
+<br>
+
+<button onclick="changeInnerHtmlOfBetchengue()" >CHANGE TAG</button>
+<!-- onchange, onkeyup.. .this is too much, and I might even sai that onchange is more lets say preferable in terms of performance -->
+<input type="text" name="firstname" onkeyup="formChanged()" onchange="formChanged()"/>
+<p id="BETCHENGUE">This tags id is BETCHENGUE </p>
+
+
+<button onclick="increaseFontSize()" >+</button>
+<button onclick="decreaseFontSize()" >-</button>
+<p id="antman">This Text GROWS <small>(or shrinks)</small> </p>
+
+
+</body>
+
+</html>
