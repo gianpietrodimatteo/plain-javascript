@@ -1,0 +1,55 @@
+body {
+  background-color: lightgreen;
+}
+h1 {
+  color: blue;
+  border: 1px solid red;
+}
+p {
+  color: red;
+}
+
+/* About the links: */
+
+a:link {
+  color: green; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/* Link as button: */
+
+a.button:link, a.button:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.button:hover, a.button:active {
+  background-color: red;
+}
+
+img.imageMan {
+	margin:20px;
+}
