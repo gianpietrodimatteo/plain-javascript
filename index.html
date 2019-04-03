@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css"> <!-- This example uses a full URL to link to a style sheet: --> 
+  <link rel="stylesheet" href="/html/styles.css"> <!-- This example links to a style sheet located in the html folder on the current web site: --> 
+  <link rel="stylesheet" href="styles.css"> <!-- This example links to a style sheet located in the same folder as the current page: --> 
+<style> <!-- INTERNAL STYLE BEIBER -->
+h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+}
+p  {
+  color: red;
+  font-family: courier;
+  font-size: 160%;
+}
+#p01 { <!-- sopecific Id-->
+  color: blue;
+  border: 1px solid yellow; <!-- The CSS border property defines a border around an HTML element: -->
+  padding: 30px; <!-- The CSS padding property defines a padding (space) between the text and the border: -->
+  margin : 50px; <!-- The CSS margin property defines a margin (space) outside the border: -->
+}
+p.error {
+  color: red;
+  border: 1px solid white; 
+  padding: 30px;
+  margin : 50px; 
+}
+</style>
+</head>
+
+<body>
+The content of the document......
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+<br> <!-- line break! -->
+<p>This is a <br> paragraph with a line break.</p>
+
+
+<h2>HTML Links</h2>
+<p>HTML links are defined with the a tag:</p>
+
+<a href="https://www.w3schools.com">This is a link. Great Website BTW. </a>
+
+<h2>The src Attribute</h2>
+<p>HTML images are defined with the img tag, and the filename of the image source is specified in the src attribute:</p>
+
+<img src="files/ja-pode-beber.jpg" width="500" height="600">
+
+<h1 style="color:blue;">This is a heading in STYLE</h1>
+<p style="color:red;">This is a paragraph. in STYLE</p>
+<h1 style="font-family:verdana;">No. This is STYLE</h1>
+<p style="font-family:courier;">This is real style.</p>
+<h1 style="text-align:center;">Centered Heading</h1>
+<p style="text-align:center;">Centered paragraph.</p>
+
+<b>This text is bold</b>
+<strong>This text is strong</strong>
+<i>This text is italic</i>
+<em>This text is emphasized</em>
+<h2>HTML <small>Small</small> Formatting</h2>
+<h2>HTML <mark>Marked</mark> Formatting</h2>
+<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+
+<address>
+Written by John Doe.<br> 
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+
+<p style="background-color:Tomato;">TOMATO COLOR Lorem ipsum...</p>
+
+<h1 style="color:blue;">These styled stuff are INLINE CSS. INTERNAL CSS goes on the head, and EXTERNAL CSS goes as a reference in the head as well.  HAPPY STYLING FOR U</h1>
+
+<!-- To define a specific style for one special element, add an id attribute to the element: -->
+<p id="p01">I am different</p>
+
+<!-- To define a style for special types of elements, add a class attribute to the element: -->
+<p class="error">I am different as well. I am special. I was designed with internal css. CLASSIC, hun? Like, WHO needs frameworks anyways. Cheers up.</p>
+
+
+
+</body>
+
+</html>
