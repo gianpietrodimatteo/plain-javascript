@@ -3,8 +3,9 @@
 <head>
 <title>Title of the document</title>
   <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css"> <!-- This example uses a full URL to link to a style sheet: --> 
-  <link rel="stylesheet" href="/html/styles.css"> <!-- This example links to a style sheet located in the html folder on the current web site: --> 
-  <link rel="stylesheet" href="styles.css"> <!-- This example links to a style sheet located in the same folder as the current page: --> 
+  <!-- <link rel="stylesheet" href="/html/styles.css"> <!-- This example links to a style sheet located in the html folder on the current web site: --> 
+  <link rel="stylesheet" href="../styles/style.css"> <!-- This example links to a style sheet located in the same folder as the current page: --> 
+  <!-- The ORDER of the imports of the styles MATTER -->
 <style> <!-- INTERNAL STYLE BEIBER -->
 h1 {
   color: blue;
@@ -48,7 +49,7 @@ The content of the document......
 <h2>The src Attribute</h2>
 <p>HTML images are defined with the img tag, and the filename of the image source is specified in the src attribute:</p>
 
-<img src="files/ja-pode-beber.jpg" width="500" height="600">
+<img src="../files/ja-pode-beber.jpg" width="500" height="600">
 
 <h1 style="color:blue;">This is a heading in STYLE</h1>
 <p style="color:red;">This is a paragraph. in STYLE</p>
